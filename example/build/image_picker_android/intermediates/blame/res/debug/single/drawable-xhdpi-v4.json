@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/shaochengding/Downloads/power_image-0.1.0-pre.2/example/build/image_picker_android/intermediates/res/merged/debug/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png",
+        "source": "/Users/shaochengding/.gradle/caches/transforms-2/files-2.1/844aeb5b8c3546d93e782d2c67b62370/core-1.8.0/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/Users/shaochengding/Downloads/power_image-0.1.0-pre.2/example/build/image_picker_android/intermediates/res/merged/debug/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png",
+        "source": "/Users/shaochengding/.gradle/caches/transforms-2/files-2.1/844aeb5b8c3546d93e782d2c67b62370/core-1.8.0/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/Users/shaochengding/Downloads/power_image-0.1.0-pre.2/example/build/image_picker_android/intermediates/res/merged/debug/drawable-xhdpi-v4/notification_bg_low_pressed.9.png",
+        "source": "/Users/shaochengding/.gradle/caches/transforms-2/files-2.1/844aeb5b8c3546d93e782d2c67b62370/core-1.8.0/res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/Users/shaochengding/Downloads/power_image-0.1.0-pre.2/example/build/image_picker_android/intermediates/res/merged/debug/drawable-xhdpi-v4/notification_bg_normal.9.png",
+        "source": "/Users/shaochengding/.gradle/caches/transforms-2/files-2.1/844aeb5b8c3546d93e782d2c67b62370/core-1.8.0/res/drawable-xhdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/Users/shaochengding/Downloads/power_image-0.1.0-pre.2/example/build/image_picker_android/intermediates/res/merged/debug/drawable-xhdpi-v4/notification_bg_low_normal.9.png",
+        "source": "/Users/shaochengding/.gradle/caches/transforms-2/files-2.1/844aeb5b8c3546d93e782d2c67b62370/core-1.8.0/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png"
+    }
+]

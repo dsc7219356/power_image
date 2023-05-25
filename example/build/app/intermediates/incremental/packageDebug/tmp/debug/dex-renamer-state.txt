@@ -1,0 +1,4 @@
+#Thu May 25 10:34:07 CST 2023
+base.0=/Users/shaochengding/Downloads/power_image-0.1.0-pre.2/example/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
