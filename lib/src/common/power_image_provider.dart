@@ -38,7 +38,7 @@ abstract class PowerImageProvider extends ImageProviderExt<PowerImageProvider> {
   double scale;
 
   @override
-  ImageStreamCompleter load(PowerImageProvider key, ImageDecoderCallback? decode) {
+  ImageStreamCompleter loadImage(PowerImageProvider key, ImageDecoderCallback? decode) {
     _completer = OneFrameImageStreamCompleter(_loadAsync(key, decode));
     return _completer!;
   }
