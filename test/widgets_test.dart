@@ -82,8 +82,8 @@ void main() {
           key: key,
           child: networkImage,
         ),
-        null,
-        EnginePhase.layout,
+        duration: null,
+        phase: EnginePhase.layout,
       );
 
       RenderImage renderImage =
@@ -125,8 +125,8 @@ void main() {
           key: key,
           child: networkImage,
         ),
-        null,
-        EnginePhase.layout,
+        duration: null,
+        phase: EnginePhase.layout,
       );
 
       RenderImage renderImage =
@@ -334,8 +334,8 @@ void main() {
             'src',
             renderingType: renderingTypeTexture,
           ),
-          null,
-          EnginePhase.layout);
+          duration: null,
+          phase: EnginePhase.layout);
       expect(find.byType(PowerTextureImage), findsOneWidget);
       expect(find.byType(PowerExternalImage), findsNothing);
       await tester.pumpWidget(
@@ -343,8 +343,8 @@ void main() {
             'src',
             renderingType: renderingTypeExternal,
           ),
-          null,
-          EnginePhase.layout);
+          duration: null,
+          phase: EnginePhase.layout);
       expect(find.byType(PowerExternalImage), findsOneWidget);
       expect(find.byType(PowerTextureImage), findsNothing);
 
@@ -352,8 +352,8 @@ void main() {
           PowerImage(
             image: TestPowerExternalImageProvider(testRequestOptions()),
           ),
-          null,
-          EnginePhase.layout);
+          duration: null,
+          phase: EnginePhase.layout);
       expect(find.byType(PowerExternalImage), findsNothing);
       expect(find.byType(PowerTextureImage), findsNothing);
       expect(find.byType(ImageExt), findsOneWidget);
@@ -363,7 +363,7 @@ void main() {
       PowerTextureImage image =
           PowerTextureImage(provider: testPowerImageProvider() as PowerTextureImageProvider);
 
-      await tester.pumpWidget(image, null, EnginePhase.layout);
+      await tester.pumpWidget(image, duration: null, phase: EnginePhase.layout);
 
       expect(find.byType(PowerTextureImage), findsOneWidget);
       expect(find.byType(ImageExt), findsOneWidget);
