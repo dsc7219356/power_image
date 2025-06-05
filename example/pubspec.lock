@@ -355,10 +355,10 @@ packages:
     dependency: transitive
     description:
       name: power_image_ext
-      sha256: a06ea4464d6e7e5d9f20667460a3145ce5f6691897748cb18572f2864f518998
+      sha256: debf68e7d9b94b62eeff899225283e802f54c38988b4408516372449cb73e0b5
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "2.5.3"
+    version: "3.0.0"
   sky_engine:
     dependency: transitive
     description: flutter
